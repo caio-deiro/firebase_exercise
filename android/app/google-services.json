@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "756428773911",
+    "project_id": "fir-exercicio-caio",
+    "storage_bucket": "fir-exercicio-caio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756428773911:android:5c7db4f464feca1e781a52",
+        "android_client_info": {
+          "package_name": "com.projectfirebasedeiro.firebase_exercice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756428773911-o8rc74hkdsq9i7stskupq4ib25iss5va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuPQLHliMl1xwu8cHtKUVpiIViMx9bvts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756428773911-o8rc74hkdsq9i7stskupq4ib25iss5va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
