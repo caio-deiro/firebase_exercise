@@ -1,16 +1,6 @@
 # firebase_exercice
 
-A new Flutter project.
+A project where i improve my skills about firebase !!
 
-## Getting Started
+![image](https://user-images.githubusercontent.com/76565329/197926254-3535b56f-5a3c-4b52-8bba-66ec963d23ca.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
