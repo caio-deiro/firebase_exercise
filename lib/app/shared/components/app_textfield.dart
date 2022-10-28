@@ -45,21 +45,31 @@ class _AppTextfieldState extends State<AppTextfield> {
       onChanged: widget.onChanged,
       inputFormatters: widget.inputFormatters,
       decoration: InputDecoration(
-        suffixIcon: widget.isPassword
-            ? IconButton(
-                icon: obscureText
-                    ? Icon(Icons.visibility)
-                    : Icon(Icons.visibility_off),
-                onPressed: () {
-                  setState(() => obscureText = !obscureText);
-                },
-              )
-            : SizedBox(),
-        label: widget.label,
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(10),
-        ),
-      ),
+          suffixIcon: widget.isPassword
+              ? IconButton(
+                  icon: obscureText
+                      ? Icon(
+                          Icons.visibility_off,
+                          color: Colors.deepOrangeAccent,
+                        )
+                      : Icon(
+                          Icons.visibility,
+                          color: Colors.deepOrangeAccent,
+                        ),
+                  onPressed: () {
+                    setState(() => obscureText = !obscureText);
+                  },
+                )
+              : SizedBox(),
+          label: widget.label,
+          labelStyle: TextStyle(color: Colors.deepOrangeAccent),
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(10),
+          ),
+          enabledBorder: OutlineInputBorder(
+            borderSide: BorderSide(color: Colors.deepOrangeAccent),
+            borderRadius: BorderRadius.circular(10),
+          )),
     );
   }
 }
