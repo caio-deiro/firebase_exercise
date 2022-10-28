@@ -10,12 +10,12 @@ class AppButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all(Colors.orange),
+        backgroundColor: MaterialStateProperty.all(Colors.deepOrangeAccent),
       ),
       onPressed: onPressed,
       child: Text(
         text,
-        style: TextStyle(color: Colors.white),
+        style: TextStyle(color: Colors.white, fontSize: 18),
       ),
     );
   }
